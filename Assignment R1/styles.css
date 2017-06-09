@@ -1,0 +1,256 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1.2;
+}
+
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+body {
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	min-width: 480px;
+}
+
+/*Style for large buttons */
+.btn-circle.btn-lg {
+  	width: 50px;
+  	height: 50px;
+  	text-align: center;
+  	font-size: 12px;
+  	line-height: 1.428571429;
+  	border-radius: 25px;
+}
+
+/*Style for smaller buttons*/
+.btn-circle {
+	display: inline;
+	width: 30px;
+  	height: 30px;
+  	text-align: center;
+  	font-size: 12px;
+  	line-height: 1.428571429;
+  	border-radius: 15px;
+  	margin-top: -23px;
+}
+
+/*Style for tooltip font*/
+.ui-tooltip-content {
+	font-size: 2em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*Styles for the navigation bar*/
+.mainNav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #2e79f2;
+	overflow: hidden;
+}
+
+.mainNav li {
+	float: right;
+	width: 13em;
+}
+
+
+.mainNav a {
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px 5px 20px 10px;
+	display: block;
+	background-color: #2e79f2;
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+}
+
+.mainNav a:hover {
+	font-weight: bold;
+	background-color: #2e79f2;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+}
+
+/*Styles for the header*/
+.title {
+	padding: 20px 30px 100px 10em;
+	background: url(images/state-map.png) no-repeat;
+	background-position: 85% top;
+}
+
+.title .firstH2 {
+	font-size: 3em;
+	color: #605e5a;
+}
+
+.title h1 {
+	font-size: 6em;
+	color: #605e5a;
+}
+
+.title .secondH2 {
+	font-size: 3em;
+	color: #918e88;
+}
+
+/*Styles for the summary section*/
+.summary {
+	background: url(images/summary-section-img.png) no-repeat;
+	background-position: 15% bottom;
+	margin-bottom: 10em;
+}
+
+.summary h1 {
+	font-size: 4.5em;
+	text-align: center;
+	color: white;
+	background-color: rgba(20, 109, 85, .4);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.summary p {
+	font-size: 2em;
+	color: rgba(0,0,0, .7);
+	padding: 3em 3em 4em 40%;
+}
+
+/*Styles for the selection story section*/
+.selection h1 {
+	font-size: 4.5em;
+	color: #918e88;
+	padding-left: 3em;
+	border-left: 6em solid rgba(20, 109, 85, .4);
+	margin-bottom: 3em;
+}
+
+.selection p {
+	font-size: 2em;
+	color: rgba(0,0,0, .7);
+	width: 60%;
+	margin: auto;
+	margin-bottom: 7em;
+}
+
+/*Styles for category heading*/
+.row.heading {
+	margin: 0 2.5em;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+}
+
+.row.heading .col-sm-2 {
+	background-color: #2e79f2;
+	border-left: 2px solid white;
+	padding: 8px 0 8px 20px;
+}
+
+.row.heading .col-sm-2.first {
+	color: #2e79f2;
+	background-color: white;
+	padding-right: -20px;
+}
+
+/*Styles for default row in a category*/
+.row.default {
+	background: url(images/category-icon.png) no-repeat;
+	background-color: rgba(84, 89, 88, .4);
+	background-size: 90px;
+	background-position: 3% center;
+	border-radius: 60px 0 0 60px;
+	margin: 2em 2.5em;
+	padding: 3em 50px;
+}
+
+.row.default .col-sm-2 {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+/*Styles for sub category rows*/
+.row.sub {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #2eaaf1;
+	background-position: 2% center;
+	margin: 0.8em 2.5em;
+	margin-left: 80px;
+	
+}
+
+.row.sub .col-sm-2 {
+	background-color: rgba(84, 89, 88, .4);
+	padding: 1.5em 0;
+	padding-left: 30px;
+	height: 45px;
+}
+
+.row.sub .col-sm-2.first {
+	margin-top: -10px;
+	background-color: white;
+}
+
+.row.sub .col-sm-2.second {
+	border-radius: 40px 0 0 40px;
+}
+
+/*Styles for category paragraph*/
+.category .description {
+	float: left;
+	font-size: 2em;
+	color: #2e79f2;
+	margin: 30px 50% 2em 10%;
+}
+
+/*Styles for footer*/
+footer {
+	margin-top: 200px;
+	height: 150px;
+	background-color: rgba(0,0,0,.8);
+}
+
+footer .circles {
+	margin: 0;
+	margin-right: 50px;
+	padding: 20px;
+	padding-top: 100px;
+	list-style: none;
+	overflow: hidden;
+}
+
+footer .circles li{
+	padding: 10px;
+	background-color: rgba(255,255,255,.2);
+	border-radius: 10px;
+	margin: 0 5px;
+	float: right;
+	width: 2em;
+}
